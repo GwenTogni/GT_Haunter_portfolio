@@ -16,6 +16,7 @@ body {
 		height: 100%;
 	}
 
+/* Testi */
 h1 {
 	margin: 0;
 	margin-left: 10vh;
@@ -36,6 +37,7 @@ p {
 	color: rgb(255, 255, 255);
 }
 
+/* Contenuto */
 .container {
 	min-height: 80vh;
 	top: 20vh;
@@ -55,6 +57,12 @@ p {
 		max-height: 400px;
 	}
 
+	.container>p>a {
+		color: rgb(100,100,255);
+		text-decoration: none;
+	}
+
+/* Header */
 .header {
 	background-color: rgb(0, 20, 50);
 	top: 0;
@@ -68,6 +76,7 @@ p {
 			max-width: 50px;
 		}
 
+/* Footer */
 .footer {
 	background:none;
 	bottom: 0;
@@ -84,6 +93,7 @@ p {
 		right: 20px;
 	}
 
+/* Menu Dropdown */
 .menuPulsante {
 	right: 20px;
 	background: none;
@@ -128,6 +138,7 @@ p {
 		text-decoration: none;
 	}
 
+/* Cards Home Page */
 .cards {
 	display: flex;
 	width: 40%;
@@ -160,6 +171,7 @@ p {
 		max-height: 400px;
 	}
 
+/* Immagine autoritratto */
 .cartoon {
 	right: 20vh;
 	bottom: 0;
@@ -171,8 +183,35 @@ p {
 		max-width: 600px;
 	}
 
+/* Galleria immagini */
+.column {
+	float: left;
+	width: 100px;
+	padding: 0 5px 5px 0;
+}
+
+  	.column img {
+		opacity: 0.8; 
+		cursor: pointer; 
+	}
+  
+ 	 .column img:hover {
+		opacity: 1;
+ 	 }
+  
+.gallery {
+	position: relative;
+}
+
+#expandedImg {
+	max-width: 700px;
+	max-height: 700px;
+}
+
 .show {display: block;}
 
+
+/* Responsive versione mobile */
 @media only screen and (max-width: 600px) {
 	.cartoon {
 		display: none;
@@ -207,6 +246,17 @@ p {
 
 	.card>img {
 		max-height: 300px;
+	}
+
+	.column {
+		float: left;
+		width: 50px;
+		padding: 0 5px 5px 0;
+	}
+
+	#expandedImg {
+		max-width: 500px;
+		max-height: 500px;
 	}
 
   }

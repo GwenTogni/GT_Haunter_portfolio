@@ -1,11 +1,9 @@
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+/* Dropdown menu */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
-  // Close the dropdown if the user clicks outside of it
+
   window.onclick = function(event) {
     if (!event.target.matches('.menuPulsante')) {
       var dropdowns = document.getElementsByClassName("menuVoci");
@@ -19,4 +17,10 @@ function myFunction() {
     }
   }
 
-  
+
+/* Galleria immagini */
+function GalleriaImmagini(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  expandImg.src = imgs.src;
+  expandImg.parentElement.style.display = "block";
+}
