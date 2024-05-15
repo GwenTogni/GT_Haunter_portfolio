@@ -151,6 +151,7 @@ p {
 }
 
 .card {
+	border-radius: 10px;
 	background-color: rgb(60, 60, 150);
 	width: 400px;
 	margin-bottom: 20px;
@@ -159,14 +160,15 @@ p {
 	color: rgb(60, 60, 150);
   }
 
-.card:hover {
-	background-color: rgb(100,100,255);
-}
+	.card:hover {
+		background-color: rgb(100,100,255);
+	}
 
 	.containerCard {
-	padding: 2px 16px;
-	background-color: rgb(255,255,255);
-	bottom: 0;
+		border-radius:  0 0 10px 10px;
+		padding: 2px 16px;
+		background-color: rgb(255,255,255);
+		bottom: 0;
 	}
 
 		.containerCard>p {
