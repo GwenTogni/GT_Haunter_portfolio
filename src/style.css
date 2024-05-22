@@ -35,11 +35,18 @@ h2{
 p {
 	font-size: 30px;
 	color: rgb(255, 255, 255);
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 .p2 {
 	font-size: 18px;
 	color: rgb(255, 255, 255);
+	margin: 15px 0 15px 0;
+}
+
+p>a {
+	margin: 15px 0 15px 0;
 }
 
 /* Contenuto */
@@ -56,6 +63,7 @@ p {
 		font-size: 18px;
 		text-decoration: none;
 		color: rgb(100,100,255);
+		margin: 15px 0 15px 0;
 	}
 
 	.container>img {
@@ -65,6 +73,7 @@ p {
 	.container>p>a {
 		color: rgb(100,100,255);
 		text-decoration: none;
+		margin: 15px 0 15px 0;
 	}
 
 /* Header */
