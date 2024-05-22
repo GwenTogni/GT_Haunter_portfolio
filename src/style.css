@@ -68,7 +68,12 @@ p>a {
 
 	.container>img {
 		max-height: 400px;
+		transition: transform .2s;
 	}
+
+		.container>img:active {
+			transform: scale(1.5)
+		}
 
 	.container>p>a {
 		color: rgb(100,100,255);
