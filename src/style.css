@@ -115,9 +115,9 @@ p>a {
 	display: flex;
 }
 
-	.header>a>img {
-		max-width: 50px;
-	}
+		.header>a>img {
+			max-width: 50px;
+		}
 
 /* Footer */
 .footer {
@@ -230,6 +230,8 @@ p>a {
 		max-width: 600px;
 	}
 
+.show {display: block;}
+
 
 /* Responsive versione mobile */
 @media only screen and (max-width: 600px) {
@@ -272,6 +274,11 @@ p>a {
 		float: left;
 		width: 50px;
 		padding: 0 5px 5px 0;
+	}
+
+	#expandedImg {
+		max-width: 500px;
+		max-height: 500px;
 	}
 
   }
