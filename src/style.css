@@ -206,12 +206,12 @@ p>a {
 	.containerCard {
 		border-radius:  0 0 10px 10px;
 		padding: 2px 16px;
-		background-color: rgb(255,255,255);
+		background: none;
 	}
 
-		.containerCard>p {
+		/* .containerCard>p {
 		color: rgb(60, 60, 150);
-		}
+		} */
 
 	.card>img {
 		max-width: 400px;
