@@ -49,6 +49,29 @@ p>a {
 	margin: 15px 0 15px 0;
 }
 
+.btn {
+	border: none;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(60, 60, 150);
+	border-radius: 20px;
+	padding: 10px;
+	margin: 0 10px 30px 0;
+	cursor: pointer;
+}
+
+	.btn:hover {
+		background-color: rgb(100,100,255);
+	}
+
+	.btn:focus {
+		background-color: rgb(100,100,255);
+	}
+
+.show {
+	display: block;
+  }
+
 /* Contenuto */
 .container {
 	min-height: 80vh;
@@ -92,9 +115,9 @@ p>a {
 	display: flex;
 }
 
-		.header>a>img {
-			max-width: 50px;
-		}
+	.header>a>img {
+		max-width: 50px;
+	}
 
 /* Footer */
 .footer {
@@ -160,18 +183,20 @@ p>a {
 
 /* Cards Home Page */
 .cards {
-	display: flex;
-	width: 40%;
+	display:flex;
+	flex-wrap: wrap;
 }
 
 .card {
 	border-radius: 10px;
 	background-color: rgb(60, 60, 150);
 	width: 400px;
+	height:fit-content;
 	margin-bottom: 20px;
 	margin-right: 20px;
 	text-decoration: none;
 	color: rgb(60, 60, 150);
+	display: none;
   }
 
 	.card:hover {
@@ -182,7 +207,6 @@ p>a {
 		border-radius:  0 0 10px 10px;
 		padding: 2px 16px;
 		background-color: rgb(255,255,255);
-		bottom: 0;
 	}
 
 		.containerCard>p {
@@ -190,7 +214,8 @@ p>a {
 		}
 
 	.card>img {
-		max-height: 400px;
+		max-width: 400px;
+		border-radius: 10px 10px 0 0;
 	}
 
 /* Immagine autoritratto */
@@ -204,33 +229,6 @@ p>a {
 	.cartoon>img {
 		max-width: 600px;
 	}
-
-/* Galleria immagini */
-.column {
-	float: left;
-	width: 100px;
-	padding: 0 5px 5px 0;
-}
-
-  	.column img {
-		opacity: 0.8; 
-		cursor: pointer; 
-	}
-  
- 	 .column img:hover {
-		opacity: 1;
- 	 }
-  
-.gallery {
-	position: relative;
-}
-
-#expandedImg {
-	max-width: 700px;
-	max-height: 700px;
-}
-
-.show {display: block;}
 
 
 /* Responsive versione mobile */
@@ -274,11 +272,6 @@ p>a {
 		float: left;
 		width: 50px;
 		padding: 0 5px 5px 0;
-	}
-
-	#expandedImg {
-		max-width: 500px;
-		max-height: 500px;
 	}
 
   }
