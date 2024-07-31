@@ -92,6 +92,7 @@ p>a {
 	.container>img {
 		max-height: 400px;
 		transition: transform .2s;
+		margin: 10px 10px 0px 0px;
 	}
 
 		.container>img:active {
