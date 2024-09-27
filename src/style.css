@@ -18,7 +18,7 @@ body {
 
 /* Testi */
 h1 {
-	margin: 0;
+	margin-top: 1vh;
 	margin-left: 10vh;
 	margin-right: 20vh;
 	width: fit-content;
@@ -238,6 +238,7 @@ p>a {
 
 	h1 {
 		font-size: 20px;
+		margin-top: 2vh;
 		margin-left: 5vh;
 		margin-right: 15vh;
 	}
