@@ -19,11 +19,11 @@ body {
 /* Testi */
 h1 {
 	margin-top: 1vh;
-	margin-left: 10vh;
-	margin-right: 20vh;
+	margin-left: 5vh;
+	margin-right: 15vh;
 	width: fit-content;
 	height: fit-content;
-	font-size: 40px;
+	font-size: 30px;
 	color: rgb(255,255,255);
 }
 
@@ -56,7 +56,7 @@ p>a {
 	background-color: rgb(60, 60, 150);
 	border-radius: 20px;
 	padding: 10px;
-	margin: 0 10px 30px 0;
+	margin: 0 10px 20px 0;
 	cursor: pointer;
 }
 
@@ -239,8 +239,6 @@ p>a {
 	h1 {
 		font-size: 20px;
 		margin-top: 2vh;
-		margin-left: 5vh;
-		margin-right: 15vh;
 	}
 
 	.menuVoci {
