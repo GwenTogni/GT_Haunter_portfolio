@@ -79,7 +79,6 @@ p>a {
 	min-height: 80vh;
 	top: 20vh;
 	padding: 20px;
-	padding-bottom: 0;
 	position: relative;
 	display: block;
 }
@@ -162,7 +161,7 @@ p>a {
 	right: 0;
 	top: 0;
 	height: 100%;
-	padding: 20px;
+	padding: 50px;
 	width: fit-content;
 	position: fixed;
 	display: none;
