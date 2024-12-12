@@ -94,12 +94,20 @@ p>a {
 	display: block;
 }
 
-	.container>a {
+.container2 {
+	min-height: 80vh;
+	padding: 20px;
+	margin-top: 200px;
+	position: relative;
+	display: block;
+}
+
+	/* .container>a {
 		font-size: 18px;
 		text-decoration: none;
 		color: rgb(100,100,255);
 		margin: 15px 0 15px 0;
-	}
+	} */
 
 	.container>img {
 		max-height: 400px;
@@ -111,7 +119,13 @@ p>a {
 			transform: scale(1.5)
 		}
 
-	.container>p>a {
+	/* .container>p>a {
+		color: rgb(100,100,255);
+		text-decoration: none;
+		margin: 15px 0 15px 0;
+	} */
+
+	.container2>p>a {
 		color: rgb(100,100,255);
 		text-decoration: none;
 		margin: 15px 0 15px 0;
