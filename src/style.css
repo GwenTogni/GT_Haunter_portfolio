@@ -10,13 +10,25 @@ body {
 	padding: 0;
 }
 
-	body>img {
-		/* position:fixed; */
-		margin: 0;
-		width: 100%;
-		height: 100%;
-		/* opacity: 50%; */
-	}
+.banner {
+	position: relative;
+	height: fit-content;
+	width: 100%;
+}
+
+.banner>img {
+	/* position:absolute; */
+	margin: 0;
+	width: 100%;
+	height:fit-content;
+	/* opacity: 50%; */
+}
+
+.banner>p {
+	position: absolute;
+	margin: 20px;
+	bottom: 20px;
+}
 
 /* Testi */
 h1 {
@@ -77,7 +89,6 @@ p>a {
 /* Contenuto */
 .container {
 	min-height: 80vh;
-	top: 20vh;
 	padding: 20px;
 	position: relative;
 	display: block;
@@ -108,7 +119,6 @@ p>a {
 
 /* Header */
 .header {
-	/* background-color: rgb(0, 20, 50); */
 	background-image: linear-gradient(180deg, rgb(0, 20, 50),rgba(0, 20, 50, 0));
 	top: 0;
 	width: 100%;
@@ -233,6 +243,7 @@ p>a {
 
 /* Responsive versione mobile */
 @media only screen and (max-width: 600px) {
+	
 	.cartoon {
 		display: none;
 	}
@@ -245,6 +256,14 @@ p>a {
 	.menuVoci {
 		width: 100%;
 		left: 0;
+	}
+
+	.banner>img {
+		display: none;
+	}
+
+	.banner {
+		margin-top: 250px;
 	}
 
 	.container>img {
