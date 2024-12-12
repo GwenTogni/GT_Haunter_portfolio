@@ -102,12 +102,12 @@ p>a {
 	display: block;
 }
 
-	/* .container>a {
+	.container2>a {
 		font-size: 18px;
 		text-decoration: none;
 		color: rgb(100,100,255);
 		margin: 15px 0 15px 0;
-	} */
+	}
 
 	.container>img {
 		max-height: 400px;
