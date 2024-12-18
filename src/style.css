@@ -203,22 +203,21 @@ p>a {
 .projects {
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-between; /* Puoi usare anche altre opzioni come 'space-evenly', 'center', etc. */
+	justify-content: center; /* Puoi usare anche altre opzioni come 'space-evenly', 'center', etc. */
 	gap: 20px;
 	max-width: 100%;
-	margin: 0 auto;
+	/* margin: auto 0; */
 }
 
 .project {
 	border-radius: 10px;
 	background-color: rgb(60, 60, 150);
-	height:fit-content;
-	margin-bottom: 20px;
+	height: fit-content;
 	text-decoration: none;
 	color: rgb(60, 60, 150);
 	flex: 1;
 	min-width: 400px;
-	max-width: 600px;
+	max-width: 800px;
   }
 
 	.project:hover {
