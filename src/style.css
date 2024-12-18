@@ -63,7 +63,7 @@ p>a {
 	margin: 15px 0 15px 0;
 }
 
-.btn {
+.filter {
 	border: none;
 	font-size: 18px;
 	color: rgb(255, 255, 255);
@@ -74,17 +74,21 @@ p>a {
 	cursor: pointer;
 }
 
-	.btn:hover {
+	.filter:hover {
 		background-color: rgb(100,100,255);
 	}
 
-	.btn:focus {
+	.filter:focus {
 		background-color: rgb(100,100,255);
 	}
 
-.show {
-	display: block;
-  }
+/* .show {
+	display: flex;
+} */
+
+.hidden {
+	display: none;
+}
 
 /* Contenuto */
 .container {
@@ -118,12 +122,6 @@ p>a {
 		.container>img:active {
 			transform: scale(1.5)
 		}
-
-	/* .container>p>a {
-		color: rgb(100,100,255);
-		text-decoration: none;
-		margin: 15px 0 15px 0;
-	} */
 
 	.container2>p>a {
 		color: rgb(100,100,255);
@@ -208,12 +206,12 @@ p>a {
 	}
 
 /* Cards Home Page */
-.cards {
+.projects {
 	display:flex;
 	flex-wrap: wrap;
 }
 
-.card {
+.project {
 	border-radius: 10px;
 	background-color: rgb(60, 60, 150);
 	width: 400px;
@@ -222,10 +220,9 @@ p>a {
 	margin-right: 20px;
 	text-decoration: none;
 	color: rgb(60, 60, 150);
-	display: none;
   }
 
-	.card:hover {
+	.project:hover {
 		background-color: rgb(100,100,255);
 	}
 
@@ -235,7 +232,7 @@ p>a {
 		background: none;
 	}
 
-	.card>img {
+	.project>img {
 		max-width: 400px;
 		border-radius: 10px 10px 0 0;
 	}

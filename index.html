@@ -10,7 +10,6 @@
 	<meta name="web_author" content="Gwen Togni">
 	<meta name="copyright" content="Gwen Togni">
 	<link href="src/style.css" rel="stylesheet"/>
-	<script src="src/app.js"></script>
 </head>
 
 <body>
@@ -28,9 +27,8 @@
 		<br>
 
 <!-- filters -->
-		<div id="myBtnContainer">
+		<!-- <div id="myBtnContainer">
 			<button class="btn" onclick="filterSelection('all')"> # all </button>
-			<!-- <button class="btn" onclick="filterSelection('Ticino')"> # Ticino </button> -->
 			<button class="btn" onclick="filterSelection('graphic')"> # graphic design </button>
 			<button class="btn" onclick="filterSelection('brand')"> # brand identity </button>
 			<button class="btn" onclick="filterSelection('illustration')"> # illustration </button>
@@ -38,171 +36,198 @@
 			<button class="btn" onclick="filterSelection('interaction')"> # interaction design </button>
 			<button class="btn" onclick="filterSelection('photography')"> # photography </button>
 			<button class="btn" onclick="filterSelection('video')"> # video </button>
+		</div> -->
+
+		<div class="filters">
+			<button class="filter" data-filter="all"> # all </button>
+			<button class="filter" data-filter="graphic"> # graphic design </button>
+			<button class="filter" data-filter="brand"> # brand identity </button>
+			<button class="filter" data-filter="illustration"> # illustration </button>
+			<button class="filter" data-filter="game"> # game </button>
+			<button class="filter" data-filter="interaction"> # interaction design </button>
+			<button class="filter" data-filter="photography"> # photography </button>
+			<button class="filter" data-filter="video"> # video </button>
 		</div>
 
 <!-- cards -->
-		<div class="cards">
-			<a class="card interaction" href="https://gwentogni.github.io/Haunter_crazy_collection_02/" target="_blank">
+		<div class="projects">
+
+			<a class="project" data-tags="interaction" href="https://gwentogni.github.io/Haunter_crazy_collection_02/" target="_blank">
 				<img src="src/img/collezione_00.png">
 				<div class="containerCard">
 					<p>Weird objects collection</p>
 					<p class="p2">12/2024 | free time</p>
 				</div>
 			</a>
-			<a class="card video brand illustration" href="LaBottegaDellaDriade.html">
+
+			<a class="project" data-tags="video brand illustration" href="LaBottegaDellaDriade.html">
 				<img src="src/img/LaBottegaDellaDriade_00.jpg">
 				<div class="containerCard">
 					<p>La Bottega della Driade</p>
 					<p class="p2">07/2024 | freelance</p>
 				</div>
 			</a>
-			<a class="card game illustration" href="https://ludoticino.ch/2024/07/01/gizmo/" target="_blank">
+
+			<a class="project" data-tags="game illustration" href="https://ludoticino.ch/2024/07/01/gizmo/" target="_blank">
 				<img src="src/img/Gizmo_00.png">
 				<div class="containerCard">
 					<p>Gizmo</p>
 					<p class="p2">06/2024 | Ludo Ticino | Summer Game Jam</p>
 				</div>
 			</a>
-			<a class="card Ticino graphic photography" href="WWFYouth.html">
+
+			<a class="project" data-tags="card graphic photography" href="WWFYouth.html">
 				<img src="src/img/WWFYouth_00.JPG">
 				<div class="containerCard">
 					<p>Eco-ricette ticinesi</p>
 					<p class="p2">05/2024 | WWF Youth</p>
 				</div>
 			</a>
-			<a class="card game" href="https://globalgamejam.org/games/2024/hotdogwheels-5" target="_blank">
+
+			<a class="project" data-tags="card game" href="https://globalgamejam.org/games/2024/hotdogwheels-5" target="_blank">
 				<img src="src/img/HotDogWheels.png">
 				<div class="containerCard">
 					<p>Hot-Dog-Wheels</p>
 					<p class="p2">01/2024 | Global Game Jam</p>
 				</div>
 			</a>
-			<a class="card game illustration" href="Eisna.html">
+
+			<a class="project" data-tags="card game illustration" href="Eisna.html">
 				<img src="src/img/Eisna_Melis_02.png" alt="tasso magico illustrazione">
 				<div class="containerCard">
 					<p>Eisnă – Serious Games</p>
 					<p class="p2">08/2023 | SUPSI | bachelor thesis</p>
 				</div>
 			</a>
-			<a class="card interaction" href="https://gwentogni.github.io/Haunter_crazy_collection/" target="_blank">
+
+			<a class="project" data-tags="card interaction" href="https://gwentogni.github.io/Haunter_crazy_collection/" target="_blank">
 				<img src="src/img/tappo_17.png">
 				<div class="containerCard">
 					<p>Beer cap archive</p>
 					<p class="p2">01/2023 | SUPSI | Creative Coding</p>
 				</div>
 			</a>
-			<a class="card Ticino video" href="https://vimeo.com/778892004" target="_blank">
+
+			<a class="project" data-tags="card video" href="https://vimeo.com/778892004" target="_blank">
 				<img src="src/img/LaFilanda_00.jpg">
 				<div class="containerCard">
 					<p>La Filanda</p>
 					<p class="p2">01/2023 | SUPSI | RSI Cult+</p>
 				</div>
 			</a>
-			<a class="card video" href="https://www.youtube.com/watch?v=C2gdHHI6-os/" target="_blank">
+
+			<a class="project" data-tags="card video" href="https://www.youtube.com/watch?v=C2gdHHI6-os/" target="_blank">
 				<img src="src/img/Lego_00.png">
 				<div class="containerCard">
 					<p>LEGO – Video 3D Blender</p>
 					<p class="p2">01/2023 | SUPSI | LAB</p>
 				</div>
 			</a>
-			<a class="card interaction" href="https://pprs.0x000.ch/gwen-togni/readme.html" target="_blank">
+
+			<a class="project" data-tags="card interaction" href="https://pprs.0x000.ch/gwen-togni/readme.html" target="_blank">
 				<img src="src/img/Power_of_Frames_00.jpeg">
 				<div class="containerCard">
 					<p>Powers of Frames</p>
 					<p class="p2">10/2022 | SUPSI | Creative Coding</p>
 				</div>
 			</a>
-			<a class="card Ticino graphic brand" href="Monte.html">
+
+			<a class="project" data-tags="card graphic brand" href="Monte.html">
 				<img src="src/img/Monte_logo.png">
 				<div class="containerCard">
 					<p>Progetto di Monte</p>
 					<p class="p2">07/2022 | Castel S. Pietro</p>
 				</div>
 			</a>
-			<a class="card interaction game" href="https://gwentogni.github.io/Caduta_Pixel/" target="_blank">
+
+			<a class="project" data-tags="card interaction game" href="https://gwentogni.github.io/Caduta_Pixel/" target="_blank">
 				<img src="src/img/Caduta_Pixel_00.png">
 				<div class="containerCard">
 					<p>Caduta Pixel!</p>
 					<p class="p2">06/2022 | SUPSI | Interaction Design</p>
 				</div>
 			</a>
-			<a class="card graphic brand" href="Emergenza_Terra.html">
+
+			<a class="project" data-tags="card graphic brand" href="Emergenza_Terra.html">
 				<img src="src/img/Emergenza_Terra_00.jpg">
 				<div class="containerCard">
 					<p>Emergenza Terra</p>
 					<p class="p2">06/2022 | SUPSI | Brand Design</p>
 				</div>
 			</a>
-			<a class="card graphic game" href="Cryptopoli.html">
+
+			<a class="project" data-tags="card graphic game" href="Cryptopoli.html">
 				<img src="src/img/Cryptopoly_01.jpg">
 				<div class="containerCard">
 					<p>Cryptopoli</p>
 					<p class="p2">06/2022 | SUPSI | LAB</p>
 				</div>
 			</a>
-			<a class="card interaction" href="https://gwentogni.github.io/LMS/ " target="_blank">
+
+			<a class="project" data-tags="card interaction" href="https://gwentogni.github.io/LMS/ " target="_blank">
 				<img src="src/img/LMS_00.png">
 				<div class="containerCard">
 					<p>LMS</p>
 					<p class="p2">05/2022 | SUPSI | Interaction Design</p>
 				</div>
 			</a>
-			<a class="card video" href="https://www.youtube.com/watch?v=wt9TLjT6S8o" target="_blank">
+
+			<a class="project" data-tags="card video" href="https://www.youtube.com/watch?v=wt9TLjT6S8o" target="_blank">
 				<img src="src/img/Cosmogonia_00.JPG">
 				<div class="containerCard">
 					<p>Cosmogonia</p>
 					<p class="p2">01/2022 | SUPSI | LAB</p>
 				</div>
 			</a>
-			<a class="card Ticino graphic illustration" href="Mitologia_Ticino.html">
+
+			<a class="project" data-tags="card Ticino graphic illustration" href="Mitologia_Ticino.html">
 				<img src="src/img/mitologia_Ticino_illustrazione.png" alt="orchetto illustrazione a china">
 				<div class="containerCard">
 					<p>Mitologia del Ticino</p>
 					<p class="p2">06/2021 | SUPSI | LAB</p>
 				</div>
 			</a>
-			<a class="card photography" href="Still_life.html">
+
+			<a class="project" data-tags="card photography" href="Still_life.html">
 				<img src="src/img/still_life_00.jpg" alt="fotografia still life">
 				<div class="containerCard">
 					<p>Food still life</p>
 					<p class="p2">02/2021 | SUPSI | photography workshop</p>
 				</div>
 			</a>
-			<a class="card illustration video" href="https://www.youtube.com/watch?v=GZ4MFtWLI_M" target="_blank">
+
+			<a class="project" data-tags="card illustration video" href="https://www.youtube.com/watch?v=GZ4MFtWLI_M" target="_blank">
 				<img src="src/img/Kira_00.png" alt="pixel art">
 				<div class="containerCard">
 					<p>Kira's World Game</p>
 					<p class="p2">01/2021 | SUPSI | Motion Graphic</p>
 				</div>
 			</a>
-			<a class="card illustration" href="Draghi_in_Incognito.html">
+
+			<a class="project" data-tags="card illustration" href="Draghi_in_Incognito.html">
 				<img src="src/img/Draghi_in_incognito_00.jpg">
 				<div class="containerCard">
 					<p>Draghi in incognito</p>
 					<p class="p2">11/2020 | free time</p>
 				</div>
 			</a>
-			<a class="card photography" href="Foto_animali.html">
+
+			<a class="project" data-tags="card photography" href="Foto_animali.html">
 				<img src="src/img/foto_animali_00.JPG">
 				<div class="containerCard">
 					<p>Animal photography</p>
 					<p class="p2">2019 – 2024 | free time</p>
 				</div>
 			</a>
-			<a class="card Ticino graphic" href="volantini.html">
+
+			<a class="project" data-tags="card Ticino graphic" href="volantini.html">
 				<img src="src/img/flyer_00.png">
 				<div class="containerCard">
 					<p>Flyers</p>
 					<p class="p2">2022 – 2024 | freelance</p>
 				</div>
 			</a>
-			<!-- <a class="card illustration" href="Pokemon.html">
-				<img src="src/img/pokémon_106_Passwter.png" alt="pokémon inventato a forma di computer">
-				<div class="containerCard">
-					<p>Pokémon</p>
-					<p class="p2">2010 – 2024 | tempo libero</p>
-				</div>
-			</a> -->
+
 		</div>
 	</section>
 
@@ -234,6 +259,7 @@
 		</br>
 		<a href="contatti.html">Contact</a>
 	</div>
+	<script src="src/app.js"></script>
 </body>
 
 </html>
