@@ -17,11 +17,9 @@ body {
 }
 
 .banner>img {
-	/* position:absolute; */
 	margin: 0;
 	width: 100%;
 	height:fit-content;
-	/* opacity: 50%; */
 }
 
 .banner>p {
@@ -81,10 +79,6 @@ p>a {
 	.filter:focus {
 		background-color: rgb(100,100,255);
 	}
-
-/* .show {
-	display: flex;
-} */
 
 .hidden {
 	display: none;
@@ -214,6 +208,7 @@ p>a {
 .project {
 	border-radius: 10px;
 	background-color: rgb(60, 60, 150);
+	width: 100%;
 	width: 400px;
 	height:fit-content;
 	margin-bottom: 20px;
@@ -294,8 +289,8 @@ p>a {
 	}
 
 	.project>img {
-		max-height: 300px;
-		max-width: 300px;
+		max-height: 100%;
+		max-width: 100%;
 	}
 
 	.column {
