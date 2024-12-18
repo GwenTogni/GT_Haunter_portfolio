@@ -285,15 +285,15 @@ p>a {
 		font-size: 20px;
 	}
 
-	.cards {
+	.projects {
 		display:grid;
 	}
 
-	.card {
+	.project {
 		max-width: 300px;
 	}
 
-	.card>img {
+	.project>img {
 		max-height: 300px;
 		max-width: 300px;
 	}
