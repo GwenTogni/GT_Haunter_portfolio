@@ -277,11 +277,11 @@ p>a {
 		margin-top: 250px;
 	}
 
-	.container>img {
-		max-width: 300px;
+	.container2>img {
+		max-width:100%;
 	}
 
-	.container>a {
+	.container2>a {
 		font-size: 20px;
 	}
 
