@@ -307,6 +307,16 @@ iframe {
 		max-width: 100%;
 	}
 
+	.videos {
+		display: grid;
+	}
+
+	iframe {
+		height: fit-content;
+		min-width: 0;
+		width: 100%;
+	}
+
 	.column {
 		float: left;
 		width: 50px;
@@ -317,5 +327,4 @@ iframe {
 		max-width: 500px;
 		max-height: 500px;
 	}
-
   }
