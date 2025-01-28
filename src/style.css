@@ -12,14 +12,22 @@ body {
 
 .banner {
 	position: relative;
-	height: fit-content;
+	height: 600px;
 	width: 100%;
+	overflow: hidden;
 }
 
 .banner>img {
 	margin: 0;
 	width: 100%;
-	height:fit-content;
+	height: fit-content;
+	filter: blur(3px);
+	opacity: 0.3;
+}
+
+.banner>.cartoon {
+	position: absolute;
+	bottom: -50px;
 }
 
 .banner>p {
@@ -296,12 +304,8 @@ iframe {
 		left: 0;
 	}
 
-	.banner>img {
-		display: none;
-	}
-
 	.banner {
-		margin-top: 250px;
+		height: 350px;
 	}
 
 	.container2>img {
