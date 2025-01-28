@@ -107,6 +107,17 @@ p>a {
 		margin: 15px 0 15px 0;
 	}
 
+	.container2>a.button {
+		border: none;
+		font-size: 18px;
+		color: rgb(255, 255, 255);
+		background-color: rgb(60, 60, 150);
+		border-radius: 20px;
+		padding: 10px;
+		margin: 0 10px 20px 0;
+		cursor: pointer;
+	}
+
 	.container2>img {
 		max-height: 400px;
 		transition: transform .2s;
@@ -139,7 +150,7 @@ p>a {
 		}
 
 /* Footer */
-.footer {
+/* .footer {
 	background:none;
 	bottom: 0;
 	right: 0;
@@ -153,7 +164,7 @@ p>a {
 		font-size: 18px;
 		color: rgb(255,255,255);
 		right: 20px;
-	}
+	} */
 
 /* Menu Dropdown */
 .menuPulsante {
@@ -237,6 +248,13 @@ p>a {
 		object-fit: cover;
 	}
 
+video {
+	border-radius: 10px;
+	margin: 20px 20px 0 0;
+	flex: 1;
+	width: 600px;
+}
+
 /* Video YouTube */
 iframe {
 	border-radius: 10px;
@@ -312,6 +330,12 @@ iframe {
 	}
 
 	iframe {
+		height: fit-content;
+		min-width: 0;
+		width: 100%;
+	}
+
+	video {
 		height: fit-content;
 		min-width: 0;
 		width: 100%;
