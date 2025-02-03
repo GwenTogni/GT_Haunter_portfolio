@@ -349,4 +349,8 @@ iframe {
 		max-width: 500px;
 		max-height: 500px;
 	}
+
+	embed {
+		width: 100%;
+	}
   }
