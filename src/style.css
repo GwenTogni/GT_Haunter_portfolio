@@ -127,6 +127,10 @@ p>a {
 		cursor: pointer;
 	}
 
+	.container2>a.button:hover {
+		background-color: rgb(100,100,255);
+	}
+
 	.container2>img {
 		max-height: 400px;
 		transition: transform .2s;
