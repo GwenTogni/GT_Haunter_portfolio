@@ -135,6 +135,10 @@ p>a {
 		color: rgb(200, 255, 0);
 	}
 
+	.container2>p>a:hover {
+		color: rgb(200, 255, 0);
+	}
+
 	.container2>a.button {
 		border: none;
 		font-size: 18px;
