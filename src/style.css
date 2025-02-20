@@ -47,14 +47,13 @@ h1 {
 	width: fit-content;
 	height: fit-content;
 	font-size: 30px;
-	font-weight: bold;
-	/* font-family: 'Ruddy'; */
+	font-weight: normal;
 	color: rgb(255,255,255);
 }
 
 h2{
 	font-size: 60px;
-	font-family: 'Ruddy';
+	font-weight: normal;
 	color: rgb(200, 255, 0);
 	margin-bottom: 20px;
 }
@@ -62,7 +61,7 @@ h2{
 h3 {
 	margin-bottom: 0;
 	font-size: 30px;
-	font-family: 'Ruddy';
+	font-weight: normal;
 	color: rgb(200, 255, 0);
 }
 
