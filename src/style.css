@@ -315,6 +315,10 @@ iframe {
 		margin-top: 2vh;
 	}
 
+	h2 {
+		font-size: 30px;
+	}
+
 	.menuVoci {
 		width: 100%;
 		left: 0;
