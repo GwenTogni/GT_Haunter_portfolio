@@ -23,8 +23,8 @@ body {
 	margin: 0;
 	width: 100%;
 	height: fit-content;
-	filter: blur(3px);
-	opacity: 0.3;
+	filter: blur(2px);
+	opacity: 0.4;
 }
 
 .banner>.cartoon {
