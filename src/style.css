@@ -64,19 +64,22 @@ h3 {
 
 p {
 	font-size: 30px;
-	color: rgba(255, 255, 255, 0.5);
-	margin-top: 20px;
+	color: rgba(255, 255, 255, 0.3);
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 .p2 {
 	font-size: 18px;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.6);
 	margin: 15px 0 15px 0;
 }
 
-p>a {
-	margin: 15px 0 15px 0;
+ul {
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.3);
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .filter {
@@ -131,7 +134,7 @@ p>a {
 }
 
 	.container2>a {
-		font-size: 18px;
+		font-size: 30px;
 		text-decoration: none;
 		color: rgb(100,100,255);
 		margin: 15px 0 15px 0;
