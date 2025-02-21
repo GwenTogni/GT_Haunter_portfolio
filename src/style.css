@@ -38,10 +38,7 @@ body {
 
 /* Testi */
 h1 {
-	margin-top: 1vh;
-	margin-left: 5vh;
-	margin-right: 15vh;
-	margin-bottom: 0vh;
+	margin: 1.5vh 0 0 5vh;
 	width: fit-content;
 	height: fit-content;
 	font-size: 30px;
@@ -191,12 +188,36 @@ ul {
 	display: flex;
 }
 
-		.header>a>img {
-			max-width: 50px;
-		}
+	.header>a>img {
+		max-width: 60px;
+		margin: 0 0 0 0;
+	}
+
+.header2 {
+	top: 0;
+	left: 10%;
+	width: 90%;
+	padding: 20px;
+	position: fixed;
+	display: flex;
+	justify-content: end;
+}
+
+	.header2>a {
+		right: 0;
+		font-size: 30px;
+		text-decoration: none;
+		margin: 1.5vh 10vh 0 10vh;
+		color: rgb(255, 255, 255);
+	}
+
+	.header2>a:hover {
+		color: rgb(200,255,0);
+	}
 
 /* Menu Dropdown */
 .menuPulsante {
+	display: none;
 	right: 20px;
 	background: none;
 	border: none;
@@ -306,7 +327,7 @@ iframe {
 }
 
 	.cartoon>img {
-		max-width: 600px;
+		max-width: 550px;
 	}
 
 .show {display: block;}
@@ -326,6 +347,14 @@ iframe {
 
 	h2 {
 		font-size: 30px;
+	}
+
+	.menuPulsante {
+		display: block;
+	}
+
+	.header2 {
+		display: none;
 	}
 
 	.menuVoci {
