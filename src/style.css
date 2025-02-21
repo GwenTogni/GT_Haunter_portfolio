@@ -2,7 +2,6 @@
 html {
 	padding: 0;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
-	/* font-weight: bold; */
 }
 
 body {
@@ -52,7 +51,6 @@ h1 {
 
 h2{
 	font-size: 50px;
-	/* font-weight: normal; */
 	color: rgb(255,255,255);
 	margin-bottom: 20px;
 }
@@ -67,7 +65,7 @@ h3 {
 p {
 	font-size: 30px;
 	color: rgba(255, 255, 255, 0.5);
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -115,7 +113,6 @@ p>a {
 }
 
 	.container>p>a {
-		/* font-size: 18px; */
 		text-decoration: none;
 		color: rgb(100,100,255);
 		margin: 15px 0 15px 0;
