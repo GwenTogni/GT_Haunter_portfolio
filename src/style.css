@@ -342,7 +342,7 @@ iframe {
 
 	h1 {
 		font-size: 20px;
-		margin-top: 2vh;
+		margin-top: 3vh;
 	}
 
 	h2 {
@@ -363,7 +363,11 @@ iframe {
 	}
 
 	.banner {
-		height: 350px;
+		height: 200px;
+	}
+
+	.banner>img {
+		display: none;
 	}
 
 	.container2>img {
