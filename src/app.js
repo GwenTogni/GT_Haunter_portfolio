@@ -70,7 +70,19 @@ function switchLanguage() {
 
   document.getElementById('title').innerText = translations[language].welcome_title;
 
-  document.getElementById('title02').innerText = translations[language].title_collection_02;
+  document.getElementById('title01').innerText = translations[language].title_01;
+  document.getElementById('title02').innerText = translations[language].title_02;
+  document.getElementById('title03').innerText = translations[language].title_03;
+  document.getElementById('title04').innerText = translations[language].title_04;
+  document.getElementById('title05').innerText = translations[language].title_05;
+  document.getElementById('title06').innerText = translations[language].title_06;
+  document.getElementById('title07').innerText = translations[language].title_07;
+  document.getElementById('title08').innerText = translations[language].title_08;
+  document.getElementById('title09').innerText = translations[language].title_09;
+  document.getElementById('title10').innerText = translations[language].title_10;
+  document.getElementById('title11').innerText = translations[language].title_11;
+  document.getElementById('title12').innerText = translations[language].title_12;
+  document.getElementById('title13').innerText = translations[language].title_13;
 
   document.getElementById('how01').innerText = translations[language].project_how_01;
   document.getElementById('how02').innerText = translations[language].project_how_02;
