@@ -25,18 +25,18 @@
 <!-- contenuti -->
 	<section class="container">
 
-		<h2>PROJECTS OVERVIEW</h2>
+		<h2 id="title">PROJECTS OVERVIEW</h2>
 
 <!-- filters -->
 		<div class="filters">
-			<button class="filter" data-filter="all"> # all </button>
-			<button class="filter" data-filter="graphic"> # books </button>
-			<button class="filter" data-filter="brand"> # brand identity </button>
-			<button class="filter" data-filter="illustration"> # illustration </button>
-			<button class="filter" data-filter="game"> # game </button>
-			<button class="filter" data-filter="interaction"> # interaction design </button>
-			<button class="filter" data-filter="photography"> # photography </button>
-			<button class="filter" data-filter="video"> # video </button>
+			<button class="filter" data-filter="all" id="tag01"> # all </button>
+			<button class="filter" data-filter="graphic" id="tag02"> # books </button>
+			<button class="filter" data-filter="brand" id="tag03"> # brand identity </button>
+			<button class="filter" data-filter="illustration" id="tag04"> # illustration </button>
+			<button class="filter" data-filter="game" id="tag05"> # game </button>
+			<button class="filter" data-filter="interaction" id="tag06"> # interaction design </button>
+			<button class="filter" data-filter="photography" id="tag07"> # photography </button>
+			<button class="filter" data-filter="video" id=""> # video </button>
 		</div>
 
 <!-- cards -->
@@ -53,8 +53,8 @@
 			<a class="project" data-tags="interaction" href="https://gwentogni.github.io/Haunter_crazy_collection_02/" target="_blank">
 				<img src="src/img/collezione_00.png">
 				<div class="containerCard">
-					<h3>Weird objects collection</h3>
-					<p class="p2">12/2024 | free time</p>
+					<h3 id="title02">Weird objects collection</h3>
+					<p class="p2" id="how05">12/2024 | free time</p>
 				</div>
 			</a>
 
@@ -102,7 +102,7 @@
 				<img src="src/img/Eisna_PC_3_C.png" alt="tasso magico illustrazione">
 				<div class="containerCard">
 					<h3>Eisnă – Serious Games</h3>
-					<p class="p2">08/2023 | SUPSI | bachelor thesis</p>
+					<p class="p2" id="how04">08/2023 | SUPSI | bachelor thesis</p>
 				</div>
 			</a>
 
@@ -198,7 +198,7 @@
 				<img src="src/img/still_life_00.jpg" alt="fotografia still life">
 				<div class="containerCard">
 					<h3>Food still life</h3>
-					<p class="p2">02/2021 | SUPSI | photography workshop</p>
+					<p class="p2" id="how03">02/2021 | SUPSI | photography workshop</p>
 				</div>
 			</a>
 
@@ -214,7 +214,7 @@
 				<img src="src/img/Draghi_in_incognito_00.jpg">
 				<div class="containerCard">
 					<h3>Draghi in incognito</h3>
-					<p class="p2">11/2020 | free time</p>
+					<p class="p2" id="how02">11/2020 | free time</p>
 				</div>
 			</a>
 
@@ -222,7 +222,7 @@
 				<img src="src/img/foto_animali_01.JPG">
 				<div class="containerCard">
 					<h3>Animal photography</h3>
-					<p class="p2">2019 – 2024 | free time</p>
+					<p class="p2" id="how01">2019 – 2024 | free time</p>
 				</div>
 			</a>
 
@@ -249,8 +249,13 @@
 		</button>
 	</section>
 	<section class="header2">
-		<a href="chi_sono.html">about</a>
-		<a href="contatti.html">contact</a>
+		<a href="chi_sono.html" id="header01">about</a>
+		<a href="contatti.html" id="header02">contact</a>
+
+		<select id="languageSwitcher" onchange="switchLanguage()">
+			<option value="en">EN</option>
+			<option value="it">IT</option>
+		</select>
 	</section>
 
 

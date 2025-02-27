@@ -17,7 +17,6 @@ function myFunction() {
     }
   }
 
-
 /* Gallery */
 function GalleriaImmagini(imgs) {
   var expandImg = document.getElementById("expandedImg");
@@ -26,50 +25,7 @@ function GalleriaImmagini(imgs) {
 }
 
 
-// /* Filters */
-// filterSelection("all")
-// function filterSelection(c) {
-//   var x, i;
-//   x = document.getElementsByClassName("card");
-//   if (c == "all") c = "";
-//   for (i = 0; i < x.length; i++) {
-//     w3RemoveClass(x[i], "show");
-//     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-//   }
-// }
-
-// function w3AddClass(element, name) {
-//   var i, arr1, arr2;
-//   arr1 = element.className.split(" ");
-//   arr2 = name.split(" ");
-//   for (i = 0; i < arr2.length; i++) {
-//     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-//   }
-// }
-
-// function w3RemoveClass(element, name) {
-//   var i, arr1, arr2;
-//   arr1 = element.className.split(" ");
-//   arr2 = name.split(" ");
-//   for (i = 0; i < arr2.length; i++) {
-//     while (arr1.indexOf(arr2[i]) > -1) {
-//       arr1.splice(arr1.indexOf(arr2[i]), 1);     
-//     }
-//   }
-//   element.className = arr1.join(" ");
-// }
-
-// var btnContainer = document.getElementById("myBtnContainer");
-// var btns = btnContainer.getElementsByClassName("btn");
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function(){
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//   });
-// }
-
-/* Filters ChatGPT */
+/* Filters */
 // Ottieni tutti i bottoni di filtro e i progetti
 const filters = document.querySelectorAll('.filter');
 const projects = document.querySelectorAll('.project');
@@ -93,4 +49,46 @@ function filterProjects(event) {
 filters.forEach(filter => {
   filter.addEventListener('click', filterProjects);
 });
+
+
+/* Language */
+function loadTranslations() {
+  fetch('src/translation.json')
+    .then(response => response.json())
+    .then(data => {
+      window.translations = data;
+    })
+    // .catch(error => console.error("Errore nel caricamento delle traduzioni:", error));
+}
+
+function switchLanguage() {
+  const language = document.getElementById('languageSwitcher').value;
+
+  // Aggiorna il contenuto della pagina con i testi tradotti
+  document.getElementById('header01').innerText = translations[language].about;
+  document.getElementById('header02').innerText = translations[language].contact;
+
+  document.getElementById('title').innerText = translations[language].welcome_title;
+
+  document.getElementById('title02').innerText = translations[language].title_collection_02;
+
+  document.getElementById('how01').innerText = translations[language].project_how_01;
+  document.getElementById('how02').innerText = translations[language].project_how_02;
+  document.getElementById('how03').innerText = translations[language].project_how_03;
+  document.getElementById('how04').innerText = translations[language].project_how_04;
+  document.getElementById('how05').innerText = translations[language].project_how_05;
+
+  document.getElementById('tag01').innerText = translations[language].tag_all;
+  document.getElementById('tag02').innerText = translations[language].tag_book;
+  document.getElementById('tag03').innerText = translations[language].tag_brand;
+  document.getElementById('tag04').innerText = translations[language].tag_illustration;
+  document.getElementById('tag05').innerText = translations[language].tag_game;
+  document.getElementById('tag06').innerText = translations[language].tag_interaction;
+  document.getElementById('tag07').innerText = translations[language].tag_photo;
+  document.getElementById('tag08').innerText = translations[language].tag_video;
+
+}
+
+// Carica le traduzioni al caricamento della pagina
+window.onload = loadTranslations;
 

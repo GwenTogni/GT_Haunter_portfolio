@@ -1,0 +1,50 @@
+{
+  "en": {
+    "about": "about",
+    "contact": "contact",
+
+    "welcome_title": "PROJECTS OVERVIEW",
+
+    "title_collection_02": "Weird objects collection",
+
+    "project_how_01": "2019 – 2024 | free time",
+    "project_how_02": "11/2020 | free time",
+    "project_how_03": "02/2021 | photography workshop",
+    "project_how_04": "08/2023 | bachelor thesis",
+    "project_how_05": "12/2024 | free time",
+
+    "tag_all": "# all",
+    "tag_book": "# books",
+    "tag_brand": "# brand identity",
+    "tag_illustration": "# illustration",
+    "tag_game": "# game",
+    "tag_interaction": "# interaction design",
+    "tag_photo": "# photography",
+    "tag_video": "# video"
+  },
+
+
+  "it": {
+    "about": "chi sono",
+    "contact": "contatti",
+
+    "welcome_title": "PANORAMICA PROGETTI",
+
+    "title_collection_02": "Collezione di oggetti trovati",
+
+    "project_how_01": "2019 – 2024 | tempo libero",
+    "project_how_02": "11/2020 | tempo libero",
+    "project_how_03": "02/2021 | workshop fotografico",
+    "project_how_04": "08/2023 | tesi di bachelor",
+    "project_how_05": "12/2024 | tempo libero",
+
+    "tag_all": "# tutti",
+    "tag_book": "# libri",
+    "tag_brand": "# brand identity",
+    "tag_illustration": "# illustrazione",
+    "tag_game": "# giochi",
+    "tag_interaction": "# interaction design",
+    "tag_photo": "# fotografia",
+    "tag_video": "# video"
+  }
+}

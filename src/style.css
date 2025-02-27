@@ -79,6 +79,22 @@ ul {
 	margin-bottom: 20px;
 }
 
+select {
+	border: none;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(60, 60, 150);
+	border-radius: 20px;
+	padding: 10px;
+	margin: 1.5vh 10vh 0 10vh;
+	cursor: pointer;
+}
+
+	select:hover {
+		color: rgb(60, 60, 150);
+		background-color: rgb(200, 255, 0);
+	}
+
 .filter {
 	border: none;
 	font-size: 18px;
