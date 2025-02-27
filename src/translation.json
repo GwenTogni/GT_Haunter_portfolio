@@ -32,7 +32,12 @@
     "tag_game": "# game",
     "tag_interaction": "# interaction design",
     "tag_photo": "# photography",
-    "tag_video": "# video"
+    "tag_video": "# video",
+
+
+    "title_Flyers": "Flyers",
+
+    "title_Monte": "Project of Monte"
   },
 
 
@@ -69,6 +74,11 @@
     "tag_game": "# giochi",
     "tag_interaction": "# interaction design",
     "tag_photo": "# fotografia",
-    "tag_video": "# video"
+    "tag_video": "# video",
+
+
+    "title_Flyers": "Volantini",
+
+    "title_Monte": "Progetto di Monte"
   }
 }

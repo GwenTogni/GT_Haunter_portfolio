@@ -99,6 +99,11 @@ function switchLanguage() {
   document.getElementById('tag07').innerText = translations[language].tag_photo;
   document.getElementById('tag08').innerText = translations[language].tag_video;
 
+
+  document.getElementById('titleFlyers').innerText = translations[language].title_Flyers;
+
+  document.getElementById('titleMonte').innerText = translations[language].title_Monte;
+
 }
 
 // Carica le traduzioni al caricamento della pagina
