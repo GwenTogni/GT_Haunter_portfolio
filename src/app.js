@@ -7,8 +7,8 @@ function myFunction() {
   window.onclick = function(event) {
     if (!event.target.matches('.menuPulsante')) {
       var dropdowns = document.getElementsByClassName("menuVoci");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
+      // var i;
+      for (var i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
         if (openDropdown.classList.contains('show')) {
           openDropdown.classList.remove('show');
