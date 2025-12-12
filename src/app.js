@@ -37,7 +37,7 @@ function filterProjects(event) {
   projects.forEach(project => {
     const tags = project.getAttribute('data-tags').split(' ');
 
-    if (filter === 'all' || tags.includes(filter)) {
+    if (filter == 'all' || tags.includes(filter)) {
       project.classList.remove('hidden');
     } else {
       project.classList.add('hidden');
