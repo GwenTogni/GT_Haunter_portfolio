@@ -179,13 +179,18 @@ select {
 
 	.container2>img {
 		max-height: 400px;
-		transition: transform .2s;
+		/* transition: transform .2s; */
 		margin: 10px 10px 0px 0px;
 	}
 
-		.container>img:active {
+		/* .container>img:active {
 			transform: scale(1.5)
-		}
+		} */
+
+	.container2>.imgGrandi {
+		max-height: 700px;
+		margin: 10px 10px 0px 0px;
+	}
 
 	.container2>p>a {
 		color: rgb(100,100,255);
