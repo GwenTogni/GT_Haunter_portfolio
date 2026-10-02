@@ -179,13 +179,8 @@ select {
 
 	.container2>img {
 		max-height: 400px;
-		/* transition: transform .2s; */
 		margin: 10px 10px 0px 0px;
 	}
-
-		/* .container>img:active {
-			transform: scale(1.5)
-		} */
 
 	.container2>.imgGrandi {
 		max-height: 700px;
@@ -249,6 +244,25 @@ header {
 			header>div>img:hover {
 				max-width: 70px;
 			}
+/* Footer */
+footer {
+	/* background-color: rgb(60, 60, 150); */
+	margin-top: 50px;
+	padding: 20px;
+}
+	footer>p {
+		color: rgba(255, 255, 255, 0.3);
+		text-decoration: none;
+	}
+
+		footer>p>a {
+		color: rgb(60,60,150);
+		text-decoration: none;
+		}
+
+		footer>p>a:hover {
+			color: rgb(100,100,255);
+		}
 
 /* Menu Dropdown */
 .menuPulsante {
@@ -375,9 +389,13 @@ iframe {
 		display: none;
 	}
 
-	header>div>h1 {
+	header>div>a>h1 {
 		font-size: 20px;
 		margin: 20px 0 0 20px;
+	}
+
+	footer {
+		display: none;
 	}
 
 	h2 {
