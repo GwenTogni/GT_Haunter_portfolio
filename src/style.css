@@ -225,6 +225,10 @@ header {
 			margin: 15px 0 0 0;
 		}
 
+		header>div>a {
+			text-decoration: none;
+		}
+
 			header>div>p>a {
 				right: 0;
 				font-size: 30px;
@@ -240,6 +244,10 @@ header {
 			header>div>a>img {
 				max-width: 60px;
 				margin: 0 0 0 0;
+			}
+
+			header>div>img:hover {
+				max-width: 70px;
 			}
 
 /* Menu Dropdown */
