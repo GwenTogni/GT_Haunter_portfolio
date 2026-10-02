@@ -246,23 +246,36 @@ header {
 			}
 /* Footer */
 footer {
-	/* background-color: rgb(60, 60, 150); */
+	background-color: rgb(0, 10, 35);
 	margin-top: 50px;
 	padding: 20px;
+	display: flex;
+	/* justify-content: end; */
 }
-	footer>p {
-		color: rgba(255, 255, 255, 0.3);
-		text-decoration: none;
+
+	footer>section {
+		width: 45%;
+		justify-content: end;
 	}
 
-		footer>p>a {
-		color: rgb(60,60,150);
-		text-decoration: none;
+		footer>div>p {
+			font-size: 20px;
 		}
 
-		footer>p>a:hover {
-			color: rgb(100,100,255);
+		footer>section>div>p {
+			color: rgba(255, 255, 255, 0.3);
+			text-decoration: none;
+			font-size: 20px;
 		}
+
+			footer>section>div>p>a {
+				color: rgb(60,60,150);
+				text-decoration: none;
+			}
+
+			footer>section>div>p>a:hover {
+				color: rgb(100,100,255);
+			}
 
 /* Menu Dropdown */
 .menuPulsante {
